@@ -1,0 +1,38 @@
+{
+  "hi": "Hi there!",
+  "Im": "I'm",
+  "a": "a",
+  "experience": "Experience",
+  "projects": "Projects",
+  "education": "Education",
+  "description1": "I am a Junior Front End Designer in training with over 10 years of experience as a Desktop Publisher in an international translation agency. During this time, I have built a versatile profile that combines expertise in design tools (InDesign, Illustrator, Photoshop, Adobe XD, Figma, Sketch) with key soft skills such as organization, teamwork, leadership, problem-solving, and daily communication in English in high-pressure environments.",
+  "description2": "In 2025, I decided to take a new direction in my career and enrolled in an intensive web development bootcamp, where I gained knowledge in HTML, CSS, JavaScript, SCSS, React, MySQL, APIs, Express, and agile methodologies (Scrum). Front End development is now the area where I want to grow professionally, merging my design background with my new technical skills to create digital projects that are creative, functional, and user-centered.",
+  "in": "in",
+  "experience-details-tpt": [
+      "Adaptation of Graphic Design projects into multiple languages where the source format is Adobe InDesign, Illustrator, Photoshop, XD, Figma, Sketch, Microsoft Word, or PowerPoint.",
+      "Team organization and workflow coordination to ensure timely and high-quality project deliveries.",
+      "Training sessions for Project Managers to optimize collaboration with the DTP team and align on project priorities.",
+      "Training and mentoring of new hires and colleagues on DTP workflows and specialized software tools.",
+      "Direct collaboration with Project Managers to define the most effective approach for each project.",
+      "Autonomous management of individual projects, ensuring accountability and efficiency.",
+      "Strong problem-solving skills applied to technical, organizational, and design-related challenges."
+
+  ],
+      "experience-details-V3": [
+      "Creation of design pieesCreación de piezas gráficas para cursa deportiva",
+      "Diseño de logos",
+      "Modificación de código HTML y CSS en Wordpress",
+      "Modificación de videos en Premiere"
+  ],
+      "experience-details-Mutua": [
+      "Assistir a l'adaptació of Graphic Design projects...",
+      "Organitzar a team",
+      "Fer trainings",
+      "Educar new hires",
+      "Contacte amb Project Managers"
+  ]
+
+}
+
+
+

@@ -1,0 +1,183 @@
+@use './variables' as *;
+
+body {
+  background-color: #f8e8c6;
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+  margin: 0;
+  padding: 1rem;
+  max-width: 900px;
+  margin-left: auto;
+  margin-right: auto;
+  
+}
+
+h1 {
+  font-family: "Oi", serif;
+  font-weight: 400;
+  font-style: normal;
+  color: $principal-pink;
+
+}
+
+ul {
+  padding: 0;
+}
+
+li {
+  padding: 0;
+  list-style-type: none;
+}
+.toolbar {
+  width: auto;
+  display: flex;
+  justify-content: space-between;
+
+    button {
+      background-color: $principal-yellow;
+      border: 0;
+      border-radius: 1rem;
+      padding: 0.2rem 0.5rem;
+      margin: 0.2rem 0.3rem;
+    }
+
+    button:hover {
+      background-color: $principal-green;
+    }
+}
+
+.hero {
+  width: 500px;
+  margin-left: auto;
+  margin-right: auto;
+  line-height: 30pt;
+  font-size: 2rem;
+  font-style: italic;
+  margin-top: 5rem;
+  span {
+    color: $principal-pink;
+    font-family: "Oi", serif;
+    font-size: 4rem;
+    font-weight: 400;
+    font-style: normal;
+  }
+  .hero__front {
+    text-align:right;
+    line-height: 0pt;
+  }
+}
+
+.introduction {
+  display: flex;
+  width: 90%;
+  margin-left: auto; 
+  margin-right: auto;
+  gap: 1rem;
+  margin-top: 5rem;
+
+  .introduction__photo {
+    margin-top: 1rem;
+  }
+}
+
+.contact {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin: 3rem;
+}
+
+.central {
+  display: flex;
+  width: 100%;
+
+  p, ul {
+    margin-left: 1rem;
+  }
+}
+
+aside {
+
+  .aside__skills {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 1rem;
+    width: 200px; 
+  }
+  img {
+    width: 40px; 
+
+  }
+
+}
+
+.central__experience, .central__education {
+  border-width:2px;
+  border-radius: 2rem;
+  border-style: solid;
+  border-color: $principal-pink;
+  width: 100%;
+  position: relative;
+  padding-top: 2rem;
+  margin-top: 3rem;
+  margin-bottom: 2rem;
+
+  h2 {
+    font-family: "Oi", serif;
+    font-weight: 400;
+    font-size: 30pt;
+    font-style: normal;
+    color: $principal-pink;
+    padding-left: 3rem;
+    position: absolute;
+    top: -63px;
+  }
+  
+}
+
+.years {
+  font-weight: bold;
+}
+
+.role {
+  font-weight: bold;
+  color: $principal-green;
+  line-height: 1.1;
+  margin: 0;
+  padding: 0;
+}
+
+.central h3 {
+  font-weight: 300;
+}
+
+.central ul li {
+ line-height: 1.1; 
+}
+.languages__bar {
+  background-color: black;
+  height: 1rem;
+  width: 150px;
+  border-radius: 1rem; 
+  border-style: solid;
+  border-width: 2px;
+}
+
+.languages__bar-uncomplete {
+  background-color: $principal-yellow;
+  height: 1rem;
+  width: 140px;
+  border-radius: 1rem;
+
+}
+
+.language__bar-complete {  
+  background-color: $principal-yellow;
+  height: 1rem;
+  width: 150px;
+  border-radius: 1rem; 
+  border-style: solid;
+  border-width: 2px;
+}

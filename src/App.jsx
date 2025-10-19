@@ -18,9 +18,6 @@ function App() {
   const changeLanguage = (lang) => {
     i18n.changeLanguage(lang);
   };
-  const experienceTpt = t("experience-details-tpt", { returnObjects: true }); 
-  const experienceV3 = t("experience-details-V3", { returnObjects: true }); 
-  const experienceMutua = t("experience-details-Mutua", { returnObjects: true }); 
 
 
   return (
@@ -28,9 +25,9 @@ function App() {
       <header>
         <div className="toolbar">
             <div className="section-buttons">
-              <button>{t("experience")}</button>
-              <button>{t("education")}</button>
-              <button>{t("projects")}</button>
+              <a href="#experience"><button>{t("experience")}</button></a>
+              <a href="#education"><button>{t("education")}</button></a>
+              <a href="#projects"><button>{t("projects")}</button></a>
             </div>
             <div className="lang-buttons">
               <button onClick={() => changeLanguage("cat")}>CAT</button>
@@ -52,7 +49,6 @@ function App() {
           </div>
           <div className="introduction__description">
             <p>{t("description1")}</p>
-            <p>{t("description2")}</p>
           </div>
         </div>
         
@@ -67,19 +63,19 @@ function App() {
         
         <div className="central">
           <aside>
-            <h2>Languages</h2>
+            <h2>{t("languages")}</h2>
               <ul>
-                <li><p>Spanish</p>
+                <li><p>{t("spanish")}</p>
                   <div className="language__bar-complete"></div>
                 </li>
-                <li><p>Catalan</p>
+                <li><p>{t("catalan")}</p>
                   <div className="language__bar-complete"></div>
                 </li>
-                <li><p>English</p>
+                <li><p>{t("english")}</p>
                   <div className="languages__bar"><div className="languages__bar-uncomplete"></div></div>
                 </li>
               </ul>
-            <h2>Software Skills</h2>
+            <h2>{t("software")}</h2>
             <h3>Front-End</h3>
               <div className="aside__skills">
                 <img src="/icons/css.svg" alt="CSS"/>
@@ -100,67 +96,60 @@ function App() {
                 <img src="/icons/sketch.svg" alt="Sketch"/>
                 <img src="/icons/xd.svg" alt="Adobe Xd"/>
               </div>
+
+        
           </aside>
           <main>
             <div className="central__experience">
-              <h2>{t("experience")}</h2>
+              <h2 id="experience">{t("experience")}</h2>
               <p><span className="years">2015 - 2025</span><br />
               <span className="role">DTP Associate Lead</span><br />
               {t("in")} Transperfect Translations</p>
-              <ul className="list-disc pl-6 space-y-2">
-                {experienceTpt.map((detail, index) => (
-                  <li key={index}>{detail}</li>
-                ))}
-              </ul>
-              
-              <p><span className="years">2014</span><br />
-              <span className="role">Graphic Designer</span><br />
-              {t("in")} V3rtice</p>
-              <ul className="list-disc pl-6 space-y-2">
-                {experienceV3.map((detail, index) => (
-                  <li key={index}>{detail}</li>
-                ))}
-              </ul>
+              <p>{t("experience-details-tpt")}</p>
+                
+              <div className="more"><a href="https://www.linkedin.com/in/yolandatunyon/" target="_blank">{t("more")}</a></div>
 
-              <p><span className="years">2013</span><br />
-              <span className="role">Graphic Designer</span><br />
-              {t("in")} Mutua Universal</p>
-              <ul className="list-disc pl-6 space-y-2">
-                {experienceMutua.map((detail, index) => (
-                  <li key={index}>{detail}</li>
-                ))}
-              </ul>
             </div>
             <div className="central__education">
-              <h2>{t("education")}</h2>
-                <p><span className="years">2025</span><br />
-                <span className="role">Programación Web</span><br />
+              <h2 id="education">{t("education")}</h2>
+              <p><span className="years">2025</span><br />
+                <span className="role">{t("web-programming")}</span><br />
                 {t("in")} Adalab</p>
-                
+                <p>{t("experience-details-adalab")}</p>
 
-                  <p><span className="years">2015 - 2020</span><br />
-                <span className="role">Grado Multimedia</span><br />
-                {t("in")} Universitat Oberta de Catalunya</p>
-                
+                <div className="more"><a href="https://www.linkedin.com/in/yolandatunyon/" target="_blank">{t("more")}</a></div>
 
-                  <p><span className="years">2015</span><br />
-                <span className="role">Diseño Gráfico</span><br />
-                {t("in")} Salford University, Mánchester (UK)</p>
-                
+            </div>
+            <div className="central__projects">
+              <h2 id="projects">{t("projects")}</h2>
+              <div className="project">
+                <div className="project__image catcus"></div>
+                <div className="project__description">
+                  <h4>{t("catcus")}</h4>
+                  <p>{t("catcus-desc")}</p>
+                  <p><a href="https://github.com/yolandatuin/catcus" target="_blank">{t("web-code")}</a> | <a href="https://yolandatuin.github.io/catcus/" target="blank">{t("web-visual")}</a></p>
+                </div>
+              </div>
 
-                  <p><span className="years">2013 - 2015</span><br />
-                <span className="role">Gráfica Interactiva</span><br />
-                {t("in")} Escola Llotja</p>
-                
+              <div className="project">
+                <div className="project__image harry"></div>
+                <div className="project__description">
+                  <h4>{t("harry")}</h4>
+                  <p>{t("harry-desc")}</p>
+                  <p><a href="https://github.com/yolandatuin/Harry-Potter-Characters" target="_blank">{t("web-code")}</a> | <a href="https://yolandatuin.github.io/Harry-Potter-Characters/" target="blank">{t("web-visual")}</a></p>
+                </div>
+              </div>
 
-                <p><span className="years">2010 - 2013</span><br />
-                <span className="role">English</span><br />
-                {t("in")} Escola Oficial d'Idiomes</p>
-                
+              <div className="project">
+                <div className="project__image store"></div>
+                <div className="project__description">
+                  <h4>{t("store")}</h4>
+                  <p>{t("store-desc")}</p>
+                  <p><a href="https://github.com/yolandatuin/tienda-de-cositas" target="_blank">{t("web-code")}</a> | <a href="https://yolandatuin.github.io/tienda-de-cositas/" target="blank">{t("web-visual")}</a></p>
+                </div>
+              </div>
 
-                <p><span className="years">2011 - 2013</span><br />
-                <span className="role">Gráfica Publicitaria</span><br />
-                {t("in")} Escola Llotja</p>
+
                 
             </div>
           </main>
@@ -169,11 +158,6 @@ function App() {
 
 
       </main>
-      <h1>{t("welcome")}</h1>
-      <p>{t("about")}</p>
-
-      <h2>{t("projects")}</h2>
-      <h2>{t("contact")}</h2>
     </div>
   );
 }

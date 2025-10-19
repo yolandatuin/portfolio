@@ -5,29 +5,25 @@
   "experience": "Experiència",
   "projects": "Projectes",
   "education": "Educació",
-  "description1": "Sóc una Front End Designer Junior en formació amb una sòlida trajectòria de més de 10 anys com a Desktop Publisher en una agència de traducció internacional. Durant aquest temps he desenvolupat un perfil versàtil que combina experiència en eines de disseny (InDesign, Illustrator, Photoshop, Adobe XD, Figma, Sketch) amb competències clau com l’organització, el treball en equip, el lideratge, la resolució de problemes i la comunicació en anglès en entorns d’alta pressió.",
-  "description2": "L’any 2025 vaig decidir donar un gir a la meva carrera professional i formar-me en desenvolupament web a través d’un bootcamp intensiu, on he adquirit coneixements en HTML, CSS, JavaScript, SCSS, React, MySQL, APIs, Express i metodologies àgils (Scrum). El Front End s’ha convertit en l’àrea en la qual vull créixer professionalment, unint la meva experiència en disseny amb les meves noves competències tècniques, amb l’objectiu d’aportar valor en projectes digitals creatius, funcionals i centrats en l’experiència d’usuari.",
+  "description1": "Soc Front End Designer amb 10 anys d’experiència com a Desktop Publisher en una agència internacional. Tinc un ampli domini d’eines de disseny (InDesign, Illustrator, Photoshop, Adobe XD, Figma, Sketch) i competències en organització, lideratge i comunicació en anglès. L’any 2025 vaig completar un bootcamp de desenvolupament web, on vaig aprendre HTML, CSS, JavaScript, React i metodologies àgils. Vull créixer en l’àmbit del Front End combinant disseny i programació per aportar valor en projectes digitals creatius i orientats a l’usuari.",
   "in": "a",
-  "experience-details-tpt": [
-      "Adaptació de projectes de disseny gràfic a múltiples idiomes qual el format font és Adobe InDesign, Illustrator, Photoshop, XD, Figma, Sketch, Microsoft Word o PowerPoint.",
-      "Organització de l’equip i coordinació del flux de treball per garantir lliuraments puntuals i d’alta qualitat.",
-      "Impartició de formacions a Project Managers per optimitzar la col·laboració amb l’equip de DTP i alinear prioritats de projecte.",
-      "Formació i mentoria a noves incorporacions i companys sobre fluxos de treball de DTP i eines de programari especialitzades.",
-      "Col·laboració directa amb Project Managers per definir l’enfocament més efectiu en cada projecte.",
-      "Gestió autònoma de projectes individuals, assegurant responsabilitat i eficiència.",
-      "Sòlides habilitats de resolució de problemes aplicades a reptes tècnics, organitzatius i de disseny."
-  ],
-      "experience-details-V3": [
-      "Creación de piezas gráficas para cursa deportiva",
-      "Diseño de logos",
-      "Modificación de código HTML y CSS en Wordpress",
-      "Modificación de videos en Premiere"
-  ],
-      "experience-details-Mutua": [
-      "Assistir a l'adaptació of Graphic Design projects...",
-      "Organitzar a team",
-      "Fer trainings",
-      "Educar new hires",
-      "Contacte amb Project Managers"
-  ]
+  "more": "Veure más",
+  "experience-details-tpt": "Experiència en l'adaptació de projectes de diseny gràfic a múltiples idiomes, treballant amb eines com Adobe InDesign, Illustrator, Photoshop, XD, Figma i Sketch. Durant aquest temps he desenvolupat competències clau en organització, treball en equip, formació i resolució de problemes en entorns exigents.",
+  "experience-details-adalab": "Durant els 6 mesos del bootcamp he après i reforçat l’ús de llenguatges com HTML, CSS, JavaScript, SCSS, APIs i MySQL, aplicant metodologies àgils i desenvolupant projectes pràctics que han consolidat els meus coneixements.",
+  "languages": "Idiomes",
+  "spanish": "Castellà",
+  "catala": "Català",
+  "english": "Anglès",
+  "software": "Software Skills",
+  "web-programming": "Programació Web",
+  "multimedia": "Grau en Multimedia",
+  "catcus": "Catcus, Catcus, esbrina si una planta és tóxica per al teu gat",
+  "harry": "Descobreix i filtra tots els personatges de Harry Potter",
+  "store": "Tenda de cosetes",
+  "store-desc": "Web fictícia que simula una botiga en línia. Permet veure productes i afegir-los a la cistella utilitzant Local Storage. Està feta amb HTML, CSS i JavaScript.",
+  "catcus-desc": "CATCUS és una web creada amb React, HTML i SCSS que indica si una planta és tòxica per als gats. Utilitza un JSON per mostrar tota la informació i permet consultar els detalls de cada planta. Disseny responsive.",
+  "harry-desc": "Web creada amb React, JavaScript, HTML i SCSS que mostra personatges de Harry Potter obtinguts d’una API. Permet filtrar per casa amb un menú desplegable o buscar per nom/cognom. En fer clic en un personatge, s’obre la seva fitxa amb tota la informació i l’escut de la seva casa. Disseny responsive.",
+  "web-code": "Codi a Github",
+  "web-visual": "Web visual"
+  
 }

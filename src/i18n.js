@@ -13,8 +13,8 @@ i18n
       en: { translation: en },
       cat: { translation: cat }
     },
-    lng: "es", // idioma inicial
-    fallbackLng: "es",
+    lng: "en", // idioma inicial
+    fallbackLng: "en",
     interpolation: {
       escapeValue: false
     }

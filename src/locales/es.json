@@ -5,31 +5,26 @@
   "experience": "Experiencia",
   "projects": "Proyectos",
   "education": "Educación",
-  "description1": "Soy una Front End Designer Junior en formación con una sólida trayectoria de más de 10 años como Desktop Publisher en una agencia de traducción internacional. Durante este tiempo he desarrollado un perfil versátil que combina experiencia en herramientas de diseño (InDesign, Illustrator, Photoshop, Adobe XD, Figma, Sketch) con competencias clave como organización, trabajo en equipo, liderazgo, resolución de problemas y comunicación en inglés en entornos de alta presión.",
-  "description2": "En 2025 decidí dar un giro a mi carrera profesional y formarme en desarrollo web a través de un bootcamp intensivo, donde he adquirido conocimientos en HTML, CSS, JavaScript, SCSS, React, MySQL, APIs, Express y metodologías ágiles (Scrum). El Front End se ha convertido en el área en la que quiero crecer profesionalmente, uniendo mi experiencia en diseño con mis nuevas competencias técnicas, con el objetivo de aportar valor en proyectos digitales creativos, funcionales y centrados en la experiencia de usuario.",
+  "description1": "Soy una Front End Designer con 10 años de experiencia como Desktop Publisher en una agencia internacional. Combino un sólido dominio de herramientas de diseño (InDesign, Illustrator, Photoshop, Adobe XD, Figma, Sketch) con habilidades en organización, liderazgo y comunicación en inglés. En 2025 completé un bootcamp de desarrollo web, adquiriendo conocimientos en HTML, CSS, JavaScript, React y metodologías ágiles. Busco crecer en Front End uniendo diseño y programación para crear proyectos digitales creativos y centrados en la experiencia de usuario.",
   "in": "en",
-  "experience-details-tpt": [
-      "Adaptación de proyectos de diseño gráfico a múltiples idiomas donde los formatos originales son Adobe InDesign, Illustrator, Photoshop, XD, Figma, Sketch, Microsoft Word o PowerPoint.",
-      "Organización del equipo y coordinación del flujo de trabajo para garantizar entregas puntuales y de alta calidad.",
-      "Impartición de formaciones a Project Managers para optimizar la colaboración con el equipo de DTP y alinear prioridades de proyecto.",
-      "Formación y mentoría a nuevas incorporaciones y compañeros sobre flujos de trabajo de DTP y herramientas de software especializadas.",
-      "Colaboración directa con Project Managers para definir el enfoque más efectivo en cada proyecto.",
-      "Gestión autónoma de proyectos individuales, asegurando responsabilidad y eficiencia.",
-      "Sólidas habilidades de resolución de problemas aplicadas a retos técnicos, organizativos y de diseño."
-  ],
-      "experience-details-V3": [
-      "Creación de piezas gráficas para cursa deportiva",
-      "Diseño de logos",
-      "Modificación de código HTML y CSS en Wordpress",
-      "Modificación de videos en Premiere"
-  ],
-      "experience-details-Mutua": [
-      "Creación de presentaciones en Power Point",
-      "Reorganización de bases de datos",
-      "Fer trainings",
-      "Educar new hires",
-      "Contacte amb Project Managers"
-  ]
+  "more": "Ver más",
+  "experience-details-tpt": "Adaptación de proyectos de diseño gráfico a múltiples idiomas, trabajando con herramientas como Adobe InDesign, Illustrator, Photoshop, XD, Figma y Sketch. Durante este tiempo he desarrollado competencias clave en organización, trabajo en equipo, mentoría, formación y resolución de problemas en entornos exigentes.",
+  "experience-details-adalab": "Durante los 6 meses del bootcamp he aprendido y reforzado el uso de lenguajes como HTML, CSS, JavaScript, SCSS, APIs y MySQL, aplicando metodologías ágiles y desarrollando proyectos prácticos que consolidaron mis conocimientos.",
+  "languages": "Idiomas",
+  "spanish": "Castellano",
+  "catala": "Catalán",
+  "english": "Inglés",
+  "software": "Software Skills",
+  "web-programming": "Programación Web",
+  "multimedia": "grado multimedia",
+  "catcus": "Catcus, averigua si una planta es tóxica para tu gato",
+  "harry": "Descubre y filtra todos los personajes de Harry Potter",
+  "store": "Tienda de cositas",
+  "store-desc": "Web ficticia que simula una tienda online. Permite ver productos y añadirlos al carrito usando Local Storage. Está hecha con HTML, CSS y JavaScript.",
+  "catcus-desc": "CATCUS es una web creada con React, HTML y SCSS que indica si una planta es tóxica para los gatos. Utiliza un JSON para mostrar toda la información y permite consultar detalles de cada planta. Diseño responsive.",
+  "harry-desc": "Web creada con React, JavaScript, HTML y SCSS que muestra personajes de Harry Potter obtenidos de una API. Permite filtrar por casa usando un menú desplegable o buscar por nombre/apellido. Al hacer clic en un personaje, se abre su ficha con toda la información y el escudo de su casa en un diseño responsive. ",
+  "web-code": "Código en gihub",
+  "web-visual": "Código visual"
 }
 
 

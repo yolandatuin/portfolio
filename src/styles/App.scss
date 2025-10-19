@@ -21,6 +21,7 @@ h1 {
 
 }
 
+
 ul {
   padding: 0;
 }
@@ -47,6 +48,16 @@ li {
     }
 }
 
+a {
+  text-decoration: none;
+  color: $principal-yellow;
+  font-weight: bold;
+  }
+  a:hover {
+  color: $principal-green;
+  }
+
+
 .hero {
   width: 500px;
   margin-left: auto;
@@ -55,17 +66,27 @@ li {
   font-size: 2rem;
   font-style: italic;
   margin-top: 5rem;
+  @media (max-width: 500px) {
+    font-size: 1.5rem;
+    width: 300px;
+    line-height: 13pt;
+  }
   span {
     color: $principal-pink;
     font-family: "Oi", serif;
     font-size: 4rem;
     font-weight: 400;
     font-style: normal;
+    @media (max-width: 500px) {
+      font-size: 2rem;
+    }
   }
   .hero__front {
     text-align:right;
     line-height: 0pt;
   }
+
+
 }
 
 .introduction {
@@ -78,6 +99,13 @@ li {
 
   .introduction__photo {
     margin-top: 1rem;
+    @media (max-width: 500px) {
+     text-align: center;
+    }
+  }
+
+  @media (max-width: 580px) {
+    display: block;
   }
 }
 
@@ -91,29 +119,44 @@ li {
 .central {
   display: flex;
   width: 100%;
-
+    @media (max-width: 500px) {
+    display:block;
+  }
   p, ul {
     margin-left: 1rem;
   }
 }
 
 aside {
-
+  ul {
+    @media (max-width: 500px) {
+    text-align: center;
+    }
+  }
   .aside__skills {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     gap: 1rem;
     width: 200px; 
+    @media (max-width: 500px) {
+      width: 100%;
+      
+  }
   }
   img {
     width: 40px; 
 
   }
+  p {
+    margin: 0;
+    margin-top: 1rem;
+    margin-bottom: 0.1rem;
+  }
 
 }
 
-.central__experience, .central__education {
+.central__experience, .central__projects, .central__education {
   border-width:2px;
   border-radius: 2rem;
   border-style: solid;
@@ -123,6 +166,12 @@ aside {
   padding-top: 2rem;
   margin-top: 3rem;
   margin-bottom: 2rem;
+  padding-bottom: 2rem;
+  
+  p, ul {
+    margin-left: 1rem;
+    margin-right: 1rem;
+  }
 
   h2 {
     font-family: "Oi", serif;
@@ -136,6 +185,7 @@ aside {
   }
   
 }
+
 
 .years {
   font-weight: bold;
@@ -155,6 +205,7 @@ aside {
 
 .central ul li {
  line-height: 1.1; 
+ padding: 0;
 }
 .languages__bar {
   background-color: black;
@@ -163,6 +214,11 @@ aside {
   border-radius: 1rem; 
   border-style: solid;
   border-width: 2px;
+  margin-top: 0;
+  @media (max-width: 500px) {
+    margin: 0 auto;
+  }
+
 }
 
 .languages__bar-uncomplete {
@@ -180,4 +236,59 @@ aside {
   border-radius: 1rem; 
   border-style: solid;
   border-width: 2px;
+  @media (max-width: 500px) {
+    margin: 0 auto;
+  }
+}
+
+.more {
+  text-align:right;
+  margin-right: 1rem;
+  font-weight: bold;
+  
+}
+
+
+/* Projects Section */
+
+.central__projects {
+  width: 100%;
+  
+  .project {
+    width: auto;
+    display: flex;
+    margin: 1rem;
+    gap: 1rem;
+  }
+  .project__image {
+  width: 40%;
+  aspect-ratio: 3/2;
+  border-radius: 1rem;
+  }
+  .project__description {
+    width: 65%;
+    height: auto;
+  }
+
+  h4 {
+    margin-top: 0;
+  }
+}
+
+.harry {
+  background-image: url("../projects/harrypotter.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.catcus {
+  background-image: url("../projects/catcus.png");
+  background-size: cover;
+  background-position: center;
+}
+
+.store {
+  background-image: url("../projects/store.png");
+  background-size: cover;
+  background-position: center;
 }

@@ -45,7 +45,7 @@ function App() {
       
         <div className="introduction">
           <div className="introduction__photo">
-            <img src="/src/assets/photo.png" alt="Yolanda Tuñón photo" />
+            <img src="photo.png" alt="Yolanda Tuñón photo" />
           </div>
           <div className="introduction__description">
             <p>{t("description1")}</p>
@@ -78,23 +78,23 @@ function App() {
             <h2>{t("software")}</h2>
             <h3>Front-End</h3>
               <div className="aside__skills">
-                <img src="/icons/css.svg" alt="CSS"/>
-                <img src="/icons/html5.svg" alt="HTML"/>
-                <img src="/icons/github.svg" alt="Github"/>
-                <img src="/icons/javascript.svg" alt="JavaScript"/>
-                <img src="/icons/sass.svg" alt="SCSS"/>
+                <img src="icons/css.svg" alt="CSS"/>
+                <img src="icons/html5.svg" alt="HTML"/>
+                <img src="icons/github.svg" alt="Github"/>
+                <img src="icons/javascript.svg" alt="JavaScript"/>
+                <img src="icons/sass.svg" alt="SCSS"/>
               </div>
             
             <h3>Graphic Design</h3>
               <div className="aside__skills">
-                <img src="/icons/figma.svg" alt="Figma"/>
-                <img src="/icons/illustrator.svg" alt="Adobe Illustrator"/>
-                <img src="/icons/indesign.svg" alt="Adobe Indesign"/>
-                <img src="/icons/photoshop.svg" alt="Adobe Photoshop"/>
-                <img src="/icons/powerpoint.svg" alt="Microsoft PowerPoint"/>
-                <img src="/icons/word.svg" alt="Microsoft Word"/>
-                <img src="/icons/sketch.svg" alt="Sketch"/>
-                <img src="/icons/xd.svg" alt="Adobe Xd"/>
+                <img src="icons/figma.svg" alt="Figma"/>
+                <img src="icons/illustrator.svg" alt="Adobe Illustrator"/>
+                <img src="icons/indesign.svg" alt="Adobe Indesign"/>
+                <img src="icons/photoshop.svg" alt="Adobe Photoshop"/>
+                <img src="icons/powerpoint.svg" alt="Microsoft PowerPoint"/>
+                <img src="icons/word.svg" alt="Microsoft Word"/>
+                <img src="icons/sketch.svg" alt="Sketch"/>
+                <img src="icons/xd.svg" alt="Adobe Xd"/>
               </div>
 
         
